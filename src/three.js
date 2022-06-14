@@ -1,12 +1,10 @@
 import * as THREE from 'three'
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { TWEEN } from 'three/examples/jsm/libs/tween.module.min.js'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader'
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry'
 import { InstancedFlow } from 'three/examples/jsm/modifiers/CurveModifier'
 import { InteractionManager } from "three.interactive";
-import * as dat from 'dat.gui'
 
 
 import blobVertexShader from './shaders/blob/vertex.glsl'
@@ -21,7 +19,6 @@ import starsFragmentShader from './shaders/stars/fragment.glsl'
 
 const fontLoader = new FontLoader()
 const textureLoader = new THREE.TextureLoader()
-const gltfLoader = new GLTFLoader()
 
 const dot = textureLoader.load('textures/dot.png',(texture)=>{
     texture.minFilter = THREE.NearestFilter
@@ -261,11 +258,6 @@ renderer.setSize(sizes.width, sizes.height)
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 
 
-//Scroll
-let scrollY = window.scrollY
-window.addEventListener('scroll', (event)=>{
-    scrollY = window.scrollY
-})
 
 const clock = new THREE.Clock()
 
