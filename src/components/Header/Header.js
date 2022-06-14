@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Header.scss'
-import { images } from '../../static/index'
+// import { images } from '../../static/index'
 import { motion } from 'framer-motion'
 
 function Header() {

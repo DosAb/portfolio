@@ -16,6 +16,7 @@ import ecomerce from './assets/ecomerce.png'
 import donut from './assets/donut.gif'
 import dest from './assets/dest.gif'
 import building from './assets/building.gif'
+import telegram from './assets/telegram.svg'
 
 
 export default {
@@ -37,4 +38,5 @@ export default {
     donut,
     dest,
     building,
+    telegram
 }

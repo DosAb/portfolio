@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Works.scss'
 import { images } from '../../static/index'
 import { motion } from 'framer-motion'

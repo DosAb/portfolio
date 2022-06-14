@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { images } from '../../static/index'
-import { motion } from 'framer-motion'
 import './Contact.scss'
 // import './contactThree'
 
@@ -14,8 +13,8 @@ function Contact() {
           <h3>aiboldosonov@gmail.com</h3>
           <div className='contact-logo'>
             <a href="https://github.com/DosAb"><img src={images.github} alt="github" /></a>
-            <a href="#!"><img src={images.linkedin} alt="linkedin" /></a>
-            {/* <a href="#!"><img src={images.twitter} alt="twitter" /></a> */}
+            {/* <a href="#!"><img src={images.linkedin} alt="linkedin" /></a> */}
+            <a href="https://t.me/dossab"><img src={images.telegram} alt="telegram" /></a>
           </div>
         </div>
       </div>

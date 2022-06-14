@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import { images } from '../../static/index'
+import React from 'react'
 import { motion } from 'framer-motion'
 import './About.scss'
 
@@ -17,10 +16,10 @@ function About() {
           <h1>SKILLS</h1>
           <div className="marquee-container">
             <div className='marquee-title'>
-              <p> JS | GLSL | FIGMA | SPLINE | 3D DEVELOPMENT | CREATIVE DESIGN | THREE.JS | BLENDER |</p>
+              <p> JS | REACT | FIGMA | SPLINE | 3D DEVELOPMENT | CREATIVE DESIGN | THREE.JS | BLENDER | GLSL |</p>
             </div>
             <div className='marquee-title  marquee-title2'>
-              <p> JS | GLSL | FIGMA | SPLINE | 3D DEVELOPMENT | CREATIVE DESIGN | THREE.JS | BLENDER |</p>
+              <p> JS | REACT | FIGMA | SPLINE | 3D DEVELOPMENT | CREATIVE DESIGN | THREE.JS | BLENDER | GLSL |</p>
             </div>
           </div>
         </div>
