@@ -1,0 +1,168 @@
+.app__about{
+    padding: 100px 0 ;
+    text-align: center;
+
+
+    h1{
+        font-family: "Athena";
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 52px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .app__about-container{
+        border-top: 1px solid white;
+
+        div{
+            background-color: rgba(0, 0, 0, 0.589);
+            padding: 15px;
+        }
+
+        .app__about-container-p{
+            color: #c0c0c0;
+            padding: 15px;
+            padding: 20px 10px;
+            margin-top: 20px;
+            font-family: 'Montserrat';
+            letter-spacing: 0.08em;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 48px;
+        }
+
+        .contact-btn{
+            margin-top: 60px;
+            background: #3657ff;
+            border-radius: 104.461px;
+            border: none;
+            font-family: 'Cinzel';
+            font-size: 24px;
+            line-height: 33px;
+            text-align: center;
+            letter-spacing: 0.14em;
+            color:  white;
+            padding: 18px 64px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+
+            &:hover{
+                color: black;
+                background: #afb6ff;
+            }
+        }
+    }
+
+    @media screen and(max-width: 800px) {
+        .app__about-container{
+            .app__about-container-p{
+                padding: 20px 0;
+                margin-top: 30px;
+                letter-spacing: 0.08em;
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 42px;
+            }
+        }
+    }
+    @media screen and(max-width: 480px) {
+        margin-top: 100px;
+
+        h1{
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .app__about-skils{
+            h1{
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+
+        .app__about-container{
+
+            .app__about-container-p{
+                padding: 20px 0;
+                margin-top: 30px;
+                letter-spacing: 0.08em;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 36px;
+            }
+
+            .contact-btn{
+                font-size: 20px;
+                padding: 12px 56px;
+            }
+        }
+    }
+}
+
+.app__about-skils{
+    padding: 100px 0;
+
+    h1{
+        margin-top: 200px;
+        font-family: "Athena";
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 52px;
+        margin-bottom: 20px;
+        text-shadow: 1px 3px 1.5px rgba(0, 0, 0, 0.553);
+        font-weight: 500;
+    }
+}
+
+.marquee-container{
+    border-top: 1px solid white;
+    overflow: hidden;
+    padding: 10vh 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    left: -40px;
+
+    // white-space: nowrap;
+}
+.marquee-title{
+    font-family: 'Cinzel';
+    font-size: 8vw;
+    color: aliceblue;
+    display: inline-block;
+    margin: 0;
+    margin: 0 1vw;
+    animation: marquee 30s linear infinite;
+    white-space: nowrap;
+}
+
+.marquee-title2{
+    animation: marquee2 30s linear infinite;
+    animation-delay: 15s;
+}
+
+@keyframes marquee {
+    0%{
+        transform: translateX(50%);
+    }
+    100%{
+        transform: translateX(-150%);
+    }
+}
+
+@keyframes marquee2 {
+    0%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(-250%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .marquee-container{
+        left: -20px;
+    }
+}
