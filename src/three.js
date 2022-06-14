@@ -370,10 +370,10 @@ function checkWindowWidth(){
     }
 }
 
-window.onload = () =>{
+window.setTimeout(() =>{
     contactRender()
     checkWindowWidth()
-}
+}, 2000)
 
 
 function contactRender(){
