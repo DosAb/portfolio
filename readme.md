@@ -5,7 +5,7 @@
 - [GitHub](https://github.com/brunosimon/organic-sphere)
 - [Live](https://organic-sphere.vercel.app)
 
-![cloud](/repository/static/textures/cloud.png?raw=true "cloud")
+![cloud](/static/textures/cloud.png?raw=true "cloud")
 
 Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
