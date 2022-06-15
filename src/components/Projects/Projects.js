@@ -7,9 +7,9 @@ function Projects() {
     <div className='app__projects' id='projects'>
       <h1>PROJECTS</h1>
       <div className='projects-container'>
-        <div className='project'>
+      <div className='project'>
             <div className='project-content'>
-                <span>(01)</span><a href='https://project-katana.vercel.app' className='katana-title'>KATANA</a>
+                <span>(01)</span><a href='https://project-retro.vercel.app' className='retro-title'>RETRO</a>
             </div>
         </div>
         <div className='project'>
@@ -19,18 +19,12 @@ function Projects() {
         </div>
         <div className='project'>
             <div className='project-content'>
-                <span>(03)</span><a href='https://project-retro.vercel.app' className='retro-title'>RETRO</a>
-            </div>
-        </div>
-        <div className='project'>
-            <div className='project-content'>
-                <span>(04)</span><a href='https://project-shoe.vercel.app' className='shoe-title'>SHOE</a>
+                <span>(03)</span><a href='https://project-katana.vercel.app' className='katana-title'>KATANA</a>
             </div>
         </div>
 
         <div className='project-image katana-image'><img src={images.katana} alt="katana" /></div>
         <div className='project-image retro-image'><img src={images.retro} alt="retro" /></div>
-        <div className='project-image shoe-image'><img src={images.shoe} alt="shoe" /></div>
         <div className='project-image ecomerce-image'><img src={images.ecomerce} alt="ecomerce" /></div>
       </div>
     </div>
@@ -59,15 +53,10 @@ const onload = ()=>{
     }else{
       image[1].style.opacity = '0'
     }
-    if(event.target.className === 'shoe-title'){
+    if(event.target.className === 'ecomerce-title'){
       image[2].style.opacity = '1'
     }else{
       image[2].style.opacity = '0'
-    }
-    if(event.target.className === 'ecomerce-title'){
-      image[3].style.opacity = '1'
-    }else{
-      image[3].style.opacity = '0'
     }
     image.forEach((item)=>{
       item.style.left = `${mouseX}%`

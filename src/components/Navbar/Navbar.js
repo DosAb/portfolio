@@ -32,7 +32,7 @@ function Navbar() {
                 <button onClick={()=>setToggle(false)} className='app__navbar-close'><div className='app__navbar-close-first' /> <div className='app__navbar-close-second' /></button>
                 <div>
                   {sections.map((item)=>(
-                    <a key={`#${item}`} href={`#${item}`}>{item}</a>
+                    <a key={`#${item}`} href={`#${item}`} onClick={()=>setToggle(false)} >{item}</a>
                   ))}
                 </div>
               </motion.div>

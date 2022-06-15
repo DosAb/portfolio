@@ -5,7 +5,6 @@ import whale from './assets/whale.gif'
 import github from './assets/github.svg'
 import linkedin from './assets/linkedin.svg'
 import katana from './assets/katana.jpg'
-import shoe from './assets/shoe.jpg'
 import retro from './assets/retro.jpg'
 import ecomerce from './assets/ecomerce.jpg'
 import donut from './assets/donut.gif'
@@ -22,7 +21,6 @@ export default {
     github,
     linkedin,
     katana,
-    shoe,
     retro,
     ecomerce,
     donut,

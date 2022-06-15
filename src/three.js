@@ -313,10 +313,12 @@ function checkWindowWidth(){
     if(sizes.width < 380){
         const visible = document.querySelector('.overlay')
         visible.style.visibility = 'visible'
+        canvas.style.display = "none"
         clearRender = true
     }else{
         const visible = document.querySelector('.overlay')
         visible.style.visibility = 'hidden'
+        canvas.style.display = "block"
         clearRender = false
     }
 
