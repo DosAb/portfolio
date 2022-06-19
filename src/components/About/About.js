@@ -8,9 +8,9 @@ function About() {
         <h1 className="app__about-title">ABOUT ME</h1>
         <div className="app__about-container">
           <div>
-            <p className='app__about-container-p'>I'm creative web developer and desiner, i specialize in 3D. I love abstract and sci-fi design , and love to create new amazing projects, always ready to work and learn more.</p>
+            <p className='app__about-container-p'>I'm creative web developer and designer, i specialize in 3D and love abstract and sci-fi design. I love creating new amazing projects, always ready to work and learn more.</p>
           </div>
-            <button href='#contact' className="contact-btn">CONTACT ME</button>
+            <a href='#contact' className="contact-btn">CONTACT ME</a>
         </div>
         <div className="app__about-skils">
           <h1>SKILLS</h1>
