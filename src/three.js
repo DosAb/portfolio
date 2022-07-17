@@ -89,7 +89,7 @@ function createSphereDots(){
     const linesOpacity = 0.6;
     let height = .4;
     // const dots = true;
-    const amount = 3000;
+    const amount = 2000;
     const dotsSize = .06;
     const dotsOpacity = 1;
     const strokesColor = "#1f81d2";
