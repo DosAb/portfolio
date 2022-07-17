@@ -11,6 +11,7 @@ import donut from './assets/donut.gif'
 import dest from './assets/dest.gif'
 import building from './assets/building.gif'
 import telegram from './assets/telegram.svg'
+import robot from './assets/robot.jpg'
 
 
 export default {
@@ -26,5 +27,6 @@ export default {
     donut,
     dest,
     building,
-    telegram
+    telegram,
+    robot
 }

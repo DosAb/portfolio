@@ -19,11 +19,11 @@ function Projects() {
         </div>
         <div className='project'>
             <div className='project-content'>
-                <span>(03)</span><a href='https://project-katana.vercel.app' className='katana-title'>KATANA</a>
+                <span>(03)</span><a href='https://robot-game-one.vercel.app' className='katana-title'>ROBOT GAME</a>
             </div>
         </div>
 
-        <div className='project-image katana-image'><img src={images.katana} alt="katana" /></div>
+        <div className='project-image katana-image'><img src={images.robot} alt="katana" /></div>
         <div className='project-image retro-image'><img src={images.retro} alt="retro" /></div>
         <div className='project-image ecomerce-image'><img src={images.ecomerce} alt="ecomerce" /></div>
       </div>
